@@ -1,0 +1,42 @@
+Command failed: g++ -o "d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/Tests/a.exe" "d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp" -std=c++14
+d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp: In function 'void solve()':
+d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp:19:9: error: reference to 'hash' is ambiguous
+         hash[x]++;
+         ^~~~
+In file included from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6587,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:38,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream:38,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/complex:45,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ccomplex:39,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:52,
+                 from d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp:1:
+D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h:58:12: note: candidates are: 'template<class _Tp> struct std::hash'
+     struct hash;
+            ^~~~
+d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp:4:5: note:                 'int hash [200010]'
+ int hash[N];
+     ^~~~
+d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp:24:21: error: reference to 'hash' is ambiguous
+         ans=max(ans,hash[i]);
+                     ^~~~
+In file included from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h:6587,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:52,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:40,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:41,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:42,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:38,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream:38,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/complex:45,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ccomplex:39,
+                 from D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:52,
+                 from d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp:1:
+D:/vscode/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h:58:12: note: candidates are: 'template<class _Tp> struct std::hash'
+     struct hash;
+            ^~~~
+d:/c++/c++debug/Codeforces/1928_Codeforces Round 924 (Div. 2)/Codeforces Round 925 Div. 3/C_Make_Equal_Again/C_Make_Equal_Again.cpp:4:5: note:                 'int hash [200010]'
+ int hash[N];
+     ^~~~

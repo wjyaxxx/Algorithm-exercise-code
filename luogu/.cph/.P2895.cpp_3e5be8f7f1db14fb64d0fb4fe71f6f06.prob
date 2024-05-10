@@ -1,0 +1,1 @@
+{"name":"Local: P2895","url":"d:\\c++\\c++debug\\Codeforces\\1928_Codeforces Round 924 (Div. 2)\\luogu\\P2895.cpp","tests":[{"id":1708694874032,"input":"4\n0 0 2\n2 1 2\n1 1 2\n0 3 5","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\c++\\c++debug\\Codeforces\\1928_Codeforces Round 924 (Div. 2)\\luogu\\P2895.cpp","group":"local","local":true}

@@ -1,0 +1,38 @@
+Test 1 Failed
+
+Input 1: 
+4
+1
+a
+b
+c
+2
+aa
+bb
+aa
+10
+mathforces
+luckforces
+adhoccoder
+3
+acc
+abd
+abc
+
+
+Expected Output : 
+YES
+NO
+YES
+NO
+
+
+Obtained Output : 
+YES
+NO
+NO
+NO
+
+
+________________________________________________________
+

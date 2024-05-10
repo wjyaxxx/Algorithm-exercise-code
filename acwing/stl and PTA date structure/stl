@@ -1,0 +1,97 @@
+string 类(常见用法,不常见删了)
+创建：
+1.sting a="";
+2.sting s(str,pos=0,len=str.size())
+//pos为下标不是迭代器iterator
+3. string s(num,c);//数量为num的字符c
+
+字符串的分割
+s.substr(idx,len)
+iterator写法不常用
+大小的函数:
+s.size()==s.length()
+
+字符串的比较:(支持成员函数的比较,和运算符比价)
+//留个空下次来补
+增：
+尾插：
+s.push_back(c) //在s的最后插入一个字符c
+
+一般位置插法：
+insert 函数来插
+借助iterator:
+s.insert(s.begin()+x,str.st_iterator);
+借助下标//建议用string类能用下标就用下标
+s.insert(idx,str,insert_str_idx,insert_str_len)
+s.insert(pos,insert_str,insert_str_pos,insert_str_len)
+
+
+大小写改写：
+tolower函数
+toupper函数
+
+拼接
+append &+
+s.append(str)==s+struct str
+
+删：
+
+借助迭代器删除
+s.erase(iterator p);
+s.erase(itarator first ,iterator end);
+借助下标
+s.erase(idx,len);
+清空
+s.clear()
+
+改：
+借助迭代器
+s.replace(itarator first ,iterator end,str)
+借助下标
+s.replace(idx,len,str);
+
+
+查：
+s.find(str,idx);//从idx开始查找，找到后返回第一个字符的下标，没有找到就返回-1
+
+竞赛题中比较恶心的写法
+读取每一行,提取每一行中的以空格为分割的字符串
+
+提供一种写法
+string a;
+getline(cin,a);
+stingstream s;
+ssin<<a;//保存输入流
+string x;
+while(ssin>>x)
+
+将上面的s转化为字符串
+s.str()
+清空输入流
+s.str("")//清空字符串
+s.clear()//删除标志位
+
+
+还有一种在字符串里读取数字的
+
+sscanf(char*str,格式化，想读的数字)
+
+sscanf()
+sprintf()
+stringstream
+substr(i,k) 返回从i开始的k个字符的子串
+substr(i) 返回从i开始到末尾的子串
+strstr()
+string s; s.find("山西") 找不到返回-1，
+stoi(s):  string转换到int
+stoll(s): string转换到long long
+stof(s):  string转换到float
+
+char s[N] -> 变为int 用:atoi(s)
+isdigit('1') :判断一个字符是不是数字
+tolower('A') :将一个大写字母变成小写字母
+toupper('a') :将一个小写字母变成大写字母
+inline: 函数优化
+register: 变量优化
+
+

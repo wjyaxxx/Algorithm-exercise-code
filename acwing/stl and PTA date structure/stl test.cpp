@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+void cinquick()
+{
+       ios::sync_with_stdio(0);
+       cin.tie(0);
+       cout.tie(0);
+}
+int main()
+{
+        cinquick();
+        string a="wjyaxx";
+        string b="beautiful";
+       
+        cout<<a<<endl;
+        return 0;
+}

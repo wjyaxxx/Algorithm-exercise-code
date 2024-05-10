@@ -1,0 +1,29 @@
+Test 1 Failed
+
+Input 1: 
+5
+24
+70
+3
+55
+48
+
+
+Expected Output : 
+aav
+rzz
+aaa
+czz
+auz
+
+
+Obtained Output : 
+aa�
+�zz
+aa�
+�zz
+a�z
+
+
+________________________________________________________
+
