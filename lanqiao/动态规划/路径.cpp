@@ -44,10 +44,10 @@ int main()
         
 
 
-        for(int i=1;i<=2021;i++)
+        //for(int i=1;i<=2021;i++)
             for(int j=1;j<=2021;j++)
                 for(int k=1;k<=2021;k++)
-                    dp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);
+                    dp[1][j]=min(dp[1][j],dp[1][k]+dp[k][j]);
 
         cout<<dp[1][2021]<<endl;
         return 0;
