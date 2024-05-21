@@ -20,7 +20,7 @@ void cinquick()
     所以采用kruskal算法
 
 */
-const int N=510,M=N*N+10;
+const int N=510,M=N*N;
 struct node
 {
     int a,b;
@@ -60,7 +60,8 @@ int main()
         double ans=0;
         for(int i=0;i<cnt;i++){
             if(res<=k) break;
-            int a=e[i].a,b=e[i].b,w=e[i].w;
+            int a=e[i].a,b=e[i].b;
+            double w=e[i].w;
             
             int pa=find(a),pb=find(b);
             if(pa!=pb){
