@@ -25,7 +25,7 @@ void dfs(int x,int y)
 }
 int main()
 {
-        cin>>n>>m;
+        cin>>n>>m;//岛屿的规模
         for(int i=1;i<=n;i++)
             for(int j=1;j<=m;j++)
                 cin>>arr[i][j];

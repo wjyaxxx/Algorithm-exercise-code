@@ -13,12 +13,14 @@ int main()
     int ans=0;
     for(int i=1;i<=n;i++){
         while(!s.empty()&&h[s.top()]>h[i]){
+            //当栈顶元素比当前元素大，说明当前元素是栈顶元素右边第一个比他小的
             int idx=s.top();
             s.pop();
+            //s中保持单调递增，则s弹出后，栈顶元素就是左边第一个比它小的
             int idxl;
             if(!s.empty()) idxl=s.top();
             else idxl=0;
-            cout<<idxl<<' '<<idx<<' '<<i<<endl;
+            //cout<<idxl<<' '<<idx<<' '<<i<<endl;
             ans=max(ans,(i-idxl-1)*h[idx]);
         }
         s.push(i);
